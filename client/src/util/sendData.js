@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const sendData = async (resource, data) => {
   await axios.post(
-    `https://chat-app-fc5a9-default-rtdb.firebaseio.com/${resource}.json`,
+    `https://chat-app-6ceb1-default-rtdb.firebaseio.com/${resource}.json`,
     data
   )
 }
