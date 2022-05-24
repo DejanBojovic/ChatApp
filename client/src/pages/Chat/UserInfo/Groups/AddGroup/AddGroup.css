@@ -1,0 +1,74 @@
+.addGroup__container {
+  height: 100%;
+  padding-top: 20px;
+  position: relative;
+}
+
+.addedUsers__container {
+  overflow-y: auto;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #658fff;
+  border-radius: 20px;
+}
+
+.addGroupForm {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.addGroupInput {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  padding: 16px 10px 13px 18px;
+  color: #888;
+  margin-right: 20px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.addGroupInput:focus {
+  border-color: #658fff;
+  outline: none;
+}
+
+.addGroupBtn {
+  background-color: #658fff;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addGroupBtn:hover {
+  cursor: pointer;
+}
+
+.goBackBtn {
+  position: absolute;
+  top: -25px;
+  right: 50px;
+}
+
+.goBackBtn:hover {
+  cursor: pointer;
+}

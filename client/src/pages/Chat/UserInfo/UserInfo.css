@@ -1,0 +1,65 @@
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1.5;
+  background-color: #fff;
+  margin: 15px 0 15px 15px;
+  border-radius: 30px;
+}
+
+.loggedUser {
+  text-align: center;
+  position: relative;
+}
+
+.logoutBtn {
+  position: absolute;
+  top: 20px;
+  right: -100px;
+}
+
+.logoutBtn:hover {
+  cursor: pointer;
+}
+
+.loggedUser__name {
+  font-size: 25px;
+  position: relative;
+  bottom: 12px;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.userInfo__actions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 180px;
+}
+
+.peopleBtn,
+.groupBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff3ff;
+  border: 2px solid transparent;
+  padding: 15px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.btn--active {
+  border-color: #658fff;
+}
+
+.peopleBtn:hover,
+.groupBtn:hover {
+  cursor: pointer;
+  background-color: #eff3ff;
+}
